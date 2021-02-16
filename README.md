@@ -1,0 +1,2 @@
+# ws-generics
+workshop g
