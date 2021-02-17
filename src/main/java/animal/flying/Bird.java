@@ -3,7 +3,7 @@ package animal.flying;
 import animal.Animal;
 import animal.Feed;
 
-public class Bird extends Animal implements Flying, Feed {
+public class Bird extends Animal implements Flying {
     private String name;
     private boolean isFemale;
 
