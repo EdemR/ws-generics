@@ -5,10 +5,12 @@ import animal.Animal;
 import java.util.List;
 
 public class WildAnimal extends Animal {
-    List<WildAnimal> wildAnimalList;
+
+    public WildAnimal() {
+        WildAnimalCounter.wildAnimals.add(this);
+    }
 
     @Override
     public void feed() {
-
     }
 }

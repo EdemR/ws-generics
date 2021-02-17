@@ -1,3 +1,4 @@
+import animal.Dog;
 import animal.flying.Bird;
 import animal.flying.Flying;
 import animal.flying.LadyBird;
@@ -33,5 +34,6 @@ public class Main {
 
         UncleBen uncleBen = new UncleBen();
         uncleBen.feedBirds(flyingList);
+
     }
 }
